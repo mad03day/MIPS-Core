@@ -1,0 +1,16 @@
+# Current time Mon Jun 05 18:57:52 2023
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vish
+# Id = "2020.1"
+# Version = "2020.02"
+# Date = "Feb 28 2020"
+# Platform = win32pe
+
+Exception c0000005 has occurred at address 68c2c952. Traceback:
+# 0    0x68c2c952: 'TkSetWindowMenuBar + 0x59b2'
+# 1    0x68c2cbea: 'TkSetWindowMenuBar + 0x5c4a'
+# 2    0x68b0653b: 'TclServiceIdle + 0x4b'
+# 3    0x68a9efbe: 'TclInThreadExit + 0xce'
+StackWalk failed 299
+# End of Stack Trace
+

@@ -1,0 +1,67 @@
+vsim -gui work.testbench -t 10ns
+# vsim -gui work.testbench -t 10ns 
+# Start time: 00:53:43 on May 23,2023
+# Loading work.testbench
+# Loading work.mips
+# Loading work.control
+# Loading work.next_pc
+# Loading work.signExtend
+# Loading work.adder
+# Loading work.mux2in1
+# Loading work.pc
+# Loading work.rom
+# Loading work.iftoid
+# Loading work.regFile
+# Loading work.idtoex
+# Loading work.alu
+# Loading work.extomem
+# Loading work.ram
+# Loading work.memtowb
+# Loading work.aluControl
+# ** Warning: (vsim-3015) [PCDPC] - Port size (30) does not match connection size (32) for port 'i_inc_PC'. The port definition is at: D:/Antonyk/6semestr/Lab6/next_pc.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/testbench/next_pc_mips File: D:/Antonyk/6semestr/Lab6/mips.v Line: 62
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (30) for port 'i_addr'. The port definition is at: D:/Antonyk/6semestr/Lab6/rom.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/testbench/ROM_mips File: D:/Antonyk/6semestr/Lab6/mips.v Line: 81
+# ** Warning: (vsim-3015) [PCDPC] - Port size (30) does not match connection size (32) for port 'o_NPC'. The port definition is at: D:/Antonyk/6semestr/Lab6/iftoid.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/testbench/IfToId File: D:/Antonyk/6semestr/Lab6/mips.v Line: 84
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'i_dat0'. The port definition is at: D:/Antonyk/6semestr/Lab6/mux2in1.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/testbench/Reg_mux_mips File: D:/Antonyk/6semestr/Lab6/mips.v Line: 91
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'i_dat1'. The port definition is at: D:/Antonyk/6semestr/Lab6/mux2in1.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/testbench/Reg_mux_mips File: D:/Antonyk/6semestr/Lab6/mips.v Line: 91
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'o_dat'. The port definition is at: D:/Antonyk/6semestr/Lab6/mux2in1.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/testbench/Reg_mux_mips File: D:/Antonyk/6semestr/Lab6/mips.v Line: 91
+# ** Warning: (vsim-3015) [PCDPC] - Port size (30) does not match connection size (32) for port 'i_NPC2'. The port definition is at: D:/Antonyk/6semestr/Lab6/idtoex.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/testbench/IdToEx File: D:/Antonyk/6semestr/Lab6/mips.v Line: 105
+# ** Warning: (vsim-3015) [PCDPC] - Port size (30) does not match connection size (32) for port 'o_NPC2'. The port definition is at: D:/Antonyk/6semestr/Lab6/idtoex.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/testbench/IdToEx File: D:/Antonyk/6semestr/Lab6/mips.v Line: 105
+add wave -r /*
+run -all
+# ** Note: $finish    : D:/Antonyk/6semestr/Lab6/mips_tb.v(12)
+#    Time: 80 us  Iteration: 0  Instance: /testbench
+# 1
+# Break in Module testbench at D:/Antonyk/6semestr/Lab6/mips_tb.v line 12
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (30) does not match connection size (32) for port 'i_inc_PC'. The port definition is at: D:/Antonyk/6semestr/Lab6/next_pc.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/testbench/next_pc_mips File: D:/Antonyk/6semestr/Lab6/mips.v Line: 62
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (30) for port 'i_addr'. The port definition is at: D:/Antonyk/6semestr/Lab6/rom.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/testbench/ROM_mips File: D:/Antonyk/6semestr/Lab6/mips.v Line: 81
+# ** Warning: (vsim-3015) [PCDPC] - Port size (30) does not match connection size (32) for port 'o_NPC'. The port definition is at: D:/Antonyk/6semestr/Lab6/iftoid.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/testbench/IfToId File: D:/Antonyk/6semestr/Lab6/mips.v Line: 84
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'i_dat0'. The port definition is at: D:/Antonyk/6semestr/Lab6/mux2in1.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/testbench/Reg_mux_mips File: D:/Antonyk/6semestr/Lab6/mips.v Line: 91
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'i_dat1'. The port definition is at: D:/Antonyk/6semestr/Lab6/mux2in1.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/testbench/Reg_mux_mips File: D:/Antonyk/6semestr/Lab6/mips.v Line: 91
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'o_dat'. The port definition is at: D:/Antonyk/6semestr/Lab6/mux2in1.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/testbench/Reg_mux_mips File: D:/Antonyk/6semestr/Lab6/mips.v Line: 91
+# ** Warning: (vsim-3015) [PCDPC] - Port size (30) does not match connection size (32) for port 'i_NPC2'. The port definition is at: D:/Antonyk/6semestr/Lab6/idtoex.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/testbench/IdToEx File: D:/Antonyk/6semestr/Lab6/mips.v Line: 105
+# ** Warning: (vsim-3015) [PCDPC] - Port size (30) does not match connection size (32) for port 'o_NPC2'. The port definition is at: D:/Antonyk/6semestr/Lab6/idtoex.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/testbench/IdToEx File: D:/Antonyk/6semestr/Lab6/mips.v Line: 105
+run -all
+# ** Note: $finish    : D:/Antonyk/6semestr/Lab6/mips_tb.v(12)
+#    Time: 80 us  Iteration: 0  Instance: /testbench
+# 1
+# Break in Module testbench at D:/Antonyk/6semestr/Lab6/mips_tb.v line 12
+# End time: 01:18:32 on May 23,2023, Elapsed time: 0:24:49
+# Errors: 0, Warnings: 11

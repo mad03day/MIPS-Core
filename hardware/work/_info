@@ -1,0 +1,150 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+vcontrol
+Z0 !s110 1698863797
+!i10b 1
+!s100 I_B7lN?=U]H?;5>fV?d;e3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I0UOMoiMGToX?nb3lYG[5N1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/MRem/Documents/CurSuch/hardware
+w1685651639
+8C:/Users/MRem/Documents/CurSuch/hardware/control_spi.v
+FC:/Users/MRem/Documents/CurSuch/hardware/control_spi.v
+!i122 187
+L0 1 66
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1698863797.000000
+!s107 C:/Users/MRem/Documents/CurSuch/hardware/control_spi.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MRem/Documents/CurSuch/hardware/control_spi.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vfreq_div
+R0
+!i10b 1
+!s100 KFlLdNHB9?CVdi5G6BLlm2
+R1
+I9[AkDRQ==^C7[ANNKA@@81
+R2
+R3
+w1685145760
+8C:/Users/MRem/Documents/CurSuch/hardware/freq_div.v
+FC:/Users/MRem/Documents/CurSuch/hardware/freq_div.v
+!i122 185
+Z8 L0 1 31
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/MRem/Documents/CurSuch/hardware/freq_div.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MRem/Documents/CurSuch/hardware/freq_div.v|
+!i113 1
+R6
+R7
+vpwm_cntl
+R0
+!i10b 1
+!s100 6OK^S85h4@5gB60WDR?<G3
+R1
+I_B`43<dW63Moj:I2iT>Q[1
+R2
+R3
+w1685206579
+8C:/Users/MRem/Documents/CurSuch/hardware/pwm_cntl.v
+FC:/Users/MRem/Documents/CurSuch/hardware/pwm_cntl.v
+!i122 186
+R8
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/MRem/Documents/CurSuch/hardware/pwm_cntl.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MRem/Documents/CurSuch/hardware/pwm_cntl.v|
+!i113 1
+R6
+R7
+vsimple_spi
+!s110 1698863796
+!i10b 1
+!s100 NG9CM9Bl01>F_L8P69YVT1
+R1
+Igln@miUZ1Y>IFKEd4H[Ln2
+R2
+R3
+w1698857984
+8C:/Users/MRem/Documents/CurSuch/hardware/spi_slave.v
+FC:/Users/MRem/Documents/CurSuch/hardware/spi_slave.v
+!i122 182
+L0 1 59
+R4
+r1
+!s85 0
+31
+Z9 !s108 1698863796.000000
+!s107 C:/Users/MRem/Documents/CurSuch/hardware/spi_slave.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MRem/Documents/CurSuch/hardware/spi_slave.v|
+!i113 1
+R6
+R7
+vSPI_PWM
+R0
+!i10b 1
+!s100 T3=Bh^7G1HN3E]V:8>Q`z3
+R1
+I9@7LbW5NomgagUPcambC41
+R2
+R3
+w1685206618
+8C:\Users\MRem\Documents\CurSuch\hardware\SPI_PWM.v
+FC:\Users\MRem\Documents\CurSuch\hardware\SPI_PWM.v
+!i122 183
+L0 1 64
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:\Users\MRem\Documents\CurSuch\hardware\SPI_PWM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\MRem\Documents\CurSuch\hardware\SPI_PWM.v|
+!i113 1
+R6
+R7
+n@s@p@i_@p@w@m
+vspi_tb
+R0
+!i10b 1
+!s100 m]FV0aF7nF;mTI4A0PAoO0
+R1
+I=]5;VR29iQh]iz7R`;25]1
+R2
+R3
+w1685208505
+8C:/Users/MRem/Documents/CurSuch/hardware/testbench.v
+FC:/Users/MRem/Documents/CurSuch/hardware/testbench.v
+!i122 184
+L0 3 228
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/MRem/Documents/CurSuch/hardware/testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/MRem/Documents/CurSuch/hardware/testbench.v|
+!i113 1
+R6
+R7
